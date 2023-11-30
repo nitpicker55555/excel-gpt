@@ -2,7 +2,7 @@ import os
 import openai
 import re
 import sys
-openai.api_key = ""
+openai.api_key = "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"
 
 
 response = openai.ChatCompletion.create(
@@ -41,5 +41,5 @@ if result:
 else:text="nothing"
 y = json_str+text
 
-with open('c:\\bbdata\\file.txt', 'w',encoding='utf-8') as file:
+with open('file.txt', 'w',encoding='utf-8') as file:
     file.write(y)
