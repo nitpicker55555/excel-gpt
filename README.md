@@ -7,9 +7,10 @@
 2. **Add your API key to the openai.key variable in the excel.py file, and set the model type required for generating the program (gpt-4 recommended).**
 3. **Ensure that excel.py and excel_vba.xlsm are in the same path.**
 4. **Make Excel trust the file and allow macro functions to run.**
-5. **Open the xlsm file and click the button in the figure to add "prompt" and "Rerun" buttons to the Add-ins.**
+5. **Open the xlsm file and click the button in the figure to add "prompt" and "Rerun" buttons to the Add-ins.（like the image below）**
 6. **Enter the prompt and click confirm.**
 7. **You can click the Rerun button to rerun the VBA program just generated without consuming tokens.**
+![image](https://github.com/nitpicker55555/excel-gpt/assets/91596298/de9c044e-e64d-48ee-abf2-28ddbe7010e7)
 
 ## Points to Note:
 
